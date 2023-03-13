@@ -1,0 +1,8 @@
+[title => global]
+href => Element
+src => Element
+[hidden => global]
+charset => Element
+[class => global]
+[id => global]
+type => Element
