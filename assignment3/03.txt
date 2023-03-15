@@ -1,0 +1,29 @@
+<!-- Go To External Link -->
+
+<a href="https://google.com">Google</a>
+
+--------------------------------------------
+<!-- Go To Relative URLs -->
+
+<a href="//example.com">Scheme-relative URL</a>
+<a href="/en-US/docs/Web/HTML">Origin-relative URL</a>
+<a href="./p">Directory-relative URL</a>
+
+---------------------------------------------
+<!-- Go To Element On The Same Page -->
+
+<p><a href="#Section_further_down"> Jump to the heading below </a></p>
+<h2 id="Section_further_down">Section further down</h2>
+
+---------------------------------------------
+<!-- Linking To An Email Address --> 
+
+<a href="mailto:khaldon.r.n.n@gmail.com">Send email to khaldon</a>
+
+----------------------------------------------
+<!-- Linking To Telephone Numbers
+
+<a href="tel:+49.157.0156">+49 157 0156</a>
+<a href="tel:+1(800)555-0123">(800) 555-0123</a>
+
+----------------------------------------------
