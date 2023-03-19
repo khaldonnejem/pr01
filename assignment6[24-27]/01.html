@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 6.1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Form1</h1>
+    </header>
+    <form action="test.py" method="post">
+      <div>
+        <label>Username</label><br />
+        <input
+          type="text"
+          name="username"
+          required
+          placeholder="Enter your name"
+        />
+      </div>
+      <hr />
+      <br />
+      <div>
+        <label>Password</label><br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+        />
+      </div>
+      <hr />
+      <br />
+      <div>
+        <label>Mobile</label><br />
+        <input
+          type="text"
+          name="mobile"
+          placeholder="Enter you mobile number"
+        />
+      </div>
+      <hr />
+      <br />
+      <div>
+        <label>Email</label><br />
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Enter your email"
+        />
+      </div>
+      <hr />
+      <br />
+      <div>
+        <label>Subject</label><br />
+        <input type="text" name="subject" placeholder="Enter the subject" />
+      </div>
+      <hr />
+      <input type="hidden" value="1949000000" />
+      <input type="submit" value="Send Data" />
+      <input type="reset" name="Reset" />
+    </form>
+
+    <div>
+      <h2>Query Parameter</h2>
+      <figure>
+        <img src="../Image/query parameter.png" alt="" />
+        <figcaption>Query Parameter</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
