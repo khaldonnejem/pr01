@@ -1,0 +1,112 @@
+>>Header (yes theres element with name <header></header>)
+The head of the website.
+ <header>element represents a container for introductory content or a set of navigational links.
+
+        A <header> element typically contains:
+                  one or more heading elements (<h1> - <h6>)
+                  logo or icon
+                 authorship information
+------------------------------------------------------------------------
+>>Nav(yes theres element with name <nav></nav>)
+Navigation Bar
+The <nav> element defines a set of navigation links.
+------------------------------------------------------------------------
+>>Main
+The main element represents the main content section of the body of a document or application.
+The main content section consists of content that is directly related to or expands upon the central topic of a document or central functionality of an application.
+------------------------------------------------------------------------
+>>Aside
+The Side Bar
+The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+The <aside> content should be indirectly related to the surrounding content.
+
+------------------------------------------------------------------------
+>>Picture
+The HTML <picture> element allows you to display different pictures for different devices or screen sizes.
+
+The HTML <picture> element gives web developers more flexibility in specifying image resources.
+
+The <picture> element contains one or more <source> elements, each referring to different images through the srcset attribute. This way the browser can choose the image that best fits the current view and/or device.
+
+Each <source> element has a media attribute that defines when the image is the most suitable.
+
+------------------------------------------------------------------------
+>>Figure
+its act like a div {Container}
+The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+------------------------------------------------------------------------
+>>Footer
+The footer of the website
+The <footer> element defines a footer for a document or section.
+
+        A <footer> element typically contains:
+
+                            authorship information
+                            copyright information
+                            contact information
+                            sitemap
+                            back to top links
+                            related documents
+------------------------------------------------------------------------
+>>FigCaption
+The caption of the figure
+The <figcaption> tag defines a caption for a <figure> element.
+ The <figcaption> element can be placed as the first or as the last child of a <figure> element.
+------------------------------------------------------------------------
+>>Section
+The content of the website
+ "A section is a thematic grouping of content, typically with a heading."
+    Examples:
+            Chapters
+            Introduction
+            News items
+            Contact information
+------------------------------------------------------------------------
+>>Command
+The command element represents a command that the user can invoke.
+A command can be part of a context menu or toolbar, using the menu element, or can be put anywhere else in the page, to define a keyboard shortcut.
+
+
+------------------------------------------------------------------------
+>>Ruby
+The <ruby> HTML element represents small annotations that are rendered above, below, or next to base text, usually used for showing the pronunciation of East Asian characters. It can also be used for annotating other kinds of text, but this usage is less common.
+
+------------------------------------------------------------------------
+>>Data
+The <data> HTML element links a given piece of content with a machine-readable translation. If the content is time- or date-related, the <time> element must be used.
+
+------------------------------------------------------------------------
+>>Article
+اذا كنت بتكتب مدونة او مقالة ما 
+specifies independent, self-contained content.
+An article should make sense on its own, and it should be possible to distribute it independently from the rest of the web site.
+
+        Examples:
+                    Forum posts
+                    Blog posts
+                    User comments
+                    Product cards
+                    Newspaper articles
+------------------------------------------------------------------------
+>>Install
+NO theres no element with name (install)
+
+------------------------------------------------------------------------
+>>Text
+No theres no element with name (text)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.w3schools.com/html/html5_semantic_elements.asp

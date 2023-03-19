@@ -1,5 +1,0 @@
-<p class="element">Welcome To The New World</p>
-<p class='element'>Welcome To The New World</p>
-<p class=element>Welcome To The New World</p>
-
-لا يوجد اختلاف بينهم عند عرضهم على الصفحة
