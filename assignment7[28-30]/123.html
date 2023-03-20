@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 7</title>
+  </head>
+  <body>
+    <h1>form 2</h1>
+    <hr />
+    <form action="" method="get">
+      <div>
+        <!-- <label>Token</label> -->
+        <input
+          type="text"
+          name="token"
+          hidden
+          value="b92f1fc2fce391ad7af633723afd3055"
+        />
+      </div>
+      <div>
+        <label>Username</label><br />
+        <input
+          type="text"
+          name="username"
+          autofocus
+          minlength="5"
+          maxlength="20"
+          required
+        />
+      </div>
+      <div>
+        <label>Email</label><br />
+        <input type="email" name="email" value="o@o.com" readonly />
+      </div>
+      <hr />
+      <!--Seperator 1  -->
+
+      <h3>Skills</h3>
+      <div>
+        <input
+          id="ps"
+          type="checkbox"
+          name="skills"
+          value="ProblemSolving"
+          checked
+        />
+        <label for="ps"> Problem Solving</label>
+      </div>
+      <div>
+        <input id="lt" type="checkbox" name="skills" value="LogicalThinking" />
+        <label for="lt">Logical Thinking</label>
+      </div>
+      <div>
+        <input id="as" type="checkbox" name="skills" value="AdvancedSearch" />
+        <label for="as">Advanced Search</label>
+      </div>
+      <div>
+        <input id="an" type="checkbox" name="skills" value="Analysis" />
+        <label for="an">Analysis</label>
+      </div>
+      <div>
+        <input id="pl" type="checkbox" name="skills" value="Planning" />
+        <label for="pl">Planning</label>
+      </div>
+
+      <h3>Job</h3>
+      <div>
+        <input
+          id="frontdev"
+          type="radio"
+          name="job"
+          value="Front_End_Developer"
+        />
+        <label for="frontdev">Front-End Developer</label>
+      </div>
+      <div>
+        <input
+          id="backdev"
+          type="radio"
+          name="job"
+          value="Back_End_Developer"
+          checked
+        />
+        <label for="backdev">Back-End Developer</label>
+      </div>
+      <div>
+        <input id="BA" type="radio" name="job" value="Business_Analyst" />
+        <label for="BA">Business Analyst</label>
+      </div>
+      <div>
+        <input id="PM" type="radio" name="job" value="Project_Manager" />
+        <label for="PM">Project Manager</label>
+      </div>
+      <div>
+        <input id="SM" type="radio" name="job" value="Scrum_Master" />
+        <label for="SM">Scrum Master</label>
+      </div>
+
+      <!-- seperator 2 -->
+      <hr />
+      <div>
+        <label for="">Choose Book:</label>
+        <select name="books" id="book">
+          <optgroup label="PHP">
+            <option value="v5" selected>v5.0</option>
+            <option value="v7">v7.0</option>
+            <option value="v8">v8.0</option>
+          </optgroup>
+          <optgroup label="Python">
+            <option value="v2">v2.0</option>
+            <option value="v3">v3.0</option>
+            <option value="v3.9">v3.9</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <br />
+      <textarea
+        name="brief"
+        cols="50"
+        rows="15"
+        placeholder="Write Here Why You Want To Learn Programming"
+      ></textarea>
+      <hr />
+
+      <input type="submit" value="Send" />
+      <input type="reset" value="Empty" />
+    </form>
+  </body>
+</html>
+
+<!-- file:///D:/NewLast/Front%20End%20SAMTECH/HTML/First_Project/assignment7%5B28-30%5D/123.html?token=b92f1fc2fce391ad7af633723afd3055&username=khaldon&email=o%40o.com -->
+
+<!-- file:///D:/NewLast/Front%20End%20SAMTECH/HTML/First_Project/assignment7[28-30]/123.html?token=b92f1fc2fce391ad7af633723afd3055&username=khaldon&email=o%40o.com&skills=ProblemSolving&skills=LogicalThinking&job=Front_End_Developer -->

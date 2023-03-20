@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 8</title>
+  </head>
+  <body>
+    <h1>Form 3</h1>
+    <hr />
+    <form action="" method="get" target="_blank">
+      <div>
+        <label>Upload</label><br />
+        <input name="uplode" type="file" />
+      </div>
+      <div>
+        <label>Search</label><br />
+        <input
+          name="search"
+          type="search"
+          placeholder="Enter A Search Word"
+          autofocus
+        />
+      </div>
+      <div>
+        <label>URL</label><br />
+        <input name="url" type="url" required pattern="https?://.+" />
+        <!-- تأكد أن الشخص لو لم يكتب أي قيمة في حقل ال URL سوف يتم تجاهل ال Required Attribute ويتم إرسال البيانات بدون مشكلة?? -->
+      </div>
+      <br />
+      <!-- Seperator 1 -->
+      <!-- <hr /> -->
+      <div>
+        <label>Date</label>
+        <input type="date" name="date" value="1982-10-25" />
+      </div>
+      <br />
+      <div>
+        <label>Month</label>
+        <input type="month" name="month" value="1982-10" />
+      </div>
+
+      <hr />
+      <input type="reset" value="Empty" />
+      <input type="submit" value="Save" />
+    </form>
+
+    <!-- Seperator 1 -->
+    <hr />
+    <p>
+      Hello Line One <wbr /> Hello Line Two <wbr /> Hello Line Three
+      <wbr /> Hello Line Four
+    </p>
+  </body>
+</html>
